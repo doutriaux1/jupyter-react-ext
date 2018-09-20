@@ -6,7 +6,7 @@ import { Message } from '@phosphor/messaging';
 import * as React from 'react';
 import * as ReactDom from 'react-dom';
 import Test from './components/test';
-//import LeftSideBar from ''
+import Test2 from './components/newTest';
 import '../style/index.css';
 
 /**
@@ -51,7 +51,7 @@ class XkcdWidget extends Widget {
       this.imgAlt = data.title;
       this.imgTitle = data.alt;
 
-      ReactDom.render(<Test headerText={this.headerText} src={this.imgSrc} alt={this.imgAlt} title={this.imgTitle} />, this.div);
+      ReactDom.render(<Test2 headerText={this.headerText} src={this.imgSrc} alt={this.imgAlt} title={this.imgTitle} />, this.div);
     });
   }
 };

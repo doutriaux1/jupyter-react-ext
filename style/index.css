@@ -7,10 +7,7 @@
 .jp-xkcdCartoon {
     margin: auto;
     background-color: white;
-}
-
-.jp-cartoonImg {
-    margin: auto;
+    text-align: center;
 }
 
 .jp-xkcdAttribution {
