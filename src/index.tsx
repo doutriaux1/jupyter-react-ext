@@ -6,7 +6,6 @@ import { Message } from '@phosphor/messaging';
 import * as React from 'react';
 import * as ReactDom from 'react-dom';
 import Test from './components/test';
-import Test2 from './components/newTest';
 import '../style/index.css';
 
 /**
